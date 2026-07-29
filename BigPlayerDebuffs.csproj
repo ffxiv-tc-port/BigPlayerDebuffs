@@ -3,8 +3,10 @@
   <PropertyGroup>
     <Authors></Authors>
     <Company></Company>
-    <Version>1.1.0.13</Version>
-    <Description>Scales up buffs/debuffs applied by you on Target Status frames</Description>
+    <Version>1.1.0.14</Version>
+    <AssemblyVersion>1.1.0.14</AssemblyVersion>
+    <FileVersion>1.1.0.14</FileVersion>
+    <Description>放大目標狀態欄中由你施加的增益與減益圖示。</Description>
     <Copyright></Copyright>
     <PackageProjectUrl>https://github.com/rgd87/BigPlayerDebuffs</PackageProjectUrl>
   </PropertyGroup>

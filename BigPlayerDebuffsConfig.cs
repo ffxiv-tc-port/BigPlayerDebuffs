@@ -49,9 +49,9 @@ namespace BigPlayerDebuffs
 
             ImGui.SetNextWindowSize(new Vector2(500 * scale, 350), ImGuiCond.FirstUseEver);
             ImGui.SetNextWindowSizeConstraints(new Vector2(500 * scale, 350), new Vector2(560 * scale, 650));
-            ImGui.Begin($"{plugin.Name} Config", ref drawConfig, ImGuiWindowFlags.NoCollapse);
+            ImGui.Begin($"{plugin.Name} 設定", ref drawConfig, ImGuiWindowFlags.NoCollapse);
 
-            modified |= ImGui.SliderFloat("Own Buff/Debuff Scale", ref bScale, 1.0F, 4.0F);
+            modified |= ImGui.SliderFloat("自己施加的增益／減益圖示縮放", ref bScale, 1.0F, 4.0F);
 
             ImGui.End();
 

@@ -1,8 +1,8 @@
 {
   "Author": "d87",
   "Name": "BigPlayerDebuffs",
-  "Description": "Scales up buffs/debuffs applied by you on Target Status frames",
-  "Punchline": "Larger personal debuffs",
+  "Description": "放大目標狀態欄中由你施加的增益與減益圖示。",
+  "Punchline": "放大自己施加的減益效果",
   "InternalName": "BigPlayerDebuffs",
   "AssemblyVersion": "Version",
   "Tags": [ "Buff", "Debuff", "Scale", "Interface" ],
@@ -12,5 +12,5 @@
   "ImageUrls": [
     "https://raw.githubusercontent.com/rgd87/BigPlayerDebuffs/master/images/image1.png"
   ],
-  "Changelog": "* v1.1.0.9\n * 6.5 Dalamud Update\n"
+  "Changelog": "* v1.1.0.14\n * 新增台灣繁體中文介面\n"
 }

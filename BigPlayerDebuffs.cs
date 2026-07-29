@@ -349,7 +349,7 @@ namespace BigPlayerDebuffs
 
         public void SetupCommands() {
             CommandManager.AddHandler("/bigplayerdebuffs", new Dalamud.Game.Command.CommandInfo(OnConfigCommandHandler) {
-                HelpMessage = $"Open config window for {this.Name}",
+                HelpMessage = $"開啟 {this.Name} 設定視窗",
                 ShowInHelp = true
             });
         }
