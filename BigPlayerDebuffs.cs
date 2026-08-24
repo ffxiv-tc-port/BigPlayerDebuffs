@@ -196,7 +196,9 @@ namespace BigPlayerDebuffs
 
                 //PluginLog.Log($"StatusEffects.Length {target.StatusEffects.Length}"); // Always 30
 
-                var localPlayerId = ClientState.LocalPlayer?.GameObjectId;
+                // API13：IClientState.LocalPlayer 已過時；ClientState.LocalPlayer 本身就是
+                // => this.objectTable.LocalPlayer 的純轉發，改用既有的 Objects 行為不變。
+                var localPlayerId = Objects.LocalPlayer?.GameObjectId;
                 for (var i = 0; i < 30; i++)
                 {
                     if (target.StatusList[i].SourceId == localPlayerId) playerAuras++;
