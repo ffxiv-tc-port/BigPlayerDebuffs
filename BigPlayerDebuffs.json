@@ -1,8 +1,8 @@
 {
   "Author": "d87",
   "Name": "BigPlayerDebuffs",
-  "Description": "放大目標狀態欄中由你施加的增益與減益圖示。",
-  "Punchline": "放大自己施加的減益效果",
+  "Description": "放大目標狀態欄中由你施加的強化狀態與弱化狀態圖示。",
+  "Punchline": "放大自己施加的弱化狀態效果",
   "InternalName": "BigPlayerDebuffs",
   "AssemblyVersion": "Version",
   "Tags": [ "Buff", "Debuff", "Scale", "Interface" ],
