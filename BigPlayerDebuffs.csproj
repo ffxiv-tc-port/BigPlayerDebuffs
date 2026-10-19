@@ -6,7 +6,7 @@
     <Version>1.1.0.14</Version>
     <AssemblyVersion>1.1.0.14</AssemblyVersion>
     <FileVersion>1.1.0.14</FileVersion>
-    <Description>放大目標狀態欄中由你施加的增益與減益圖示。</Description>
+    <Description>放大目標狀態欄中由你施加的強化狀態與弱化狀態圖示。</Description>
     <Copyright></Copyright>
     <PackageProjectUrl>https://github.com/rgd87/BigPlayerDebuffs</PackageProjectUrl>
   </PropertyGroup>

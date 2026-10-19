@@ -196,10 +196,15 @@ namespace BigPlayerDebuffs
 
                 //PluginLog.Log($"StatusEffects.Length {target.StatusEffects.Length}"); // Always 30
 
-                var localPlayerId = ClientState.LocalPlayer?.GameObjectId;
+                var localPlayerId = Objects.LocalPlayer?.GameObjectId;
+                // 清單每取一次、索引子每取一格都會配一個包裝；這裡只取一次清單、每格只讀當幀的位址。
+                var statusList = target.StatusList;
                 for (var i = 0; i < 30; i++)
                 {
-                    if (target.StatusList[i].SourceId == localPlayerId) playerAuras++;
+                    var statusAddress = statusList.GetStatusAddress(i);
+                    // 索引子在這一格回 null、原本緊接著擲 NRE＝這一幀不動任何節點。
+                    if (statusAddress == nint.Zero) return;
+                    if (((FFXIVClientStructs.FFXIV.Client.Game.Status*)statusAddress)->SourceObject.ObjectId == localPlayerId) playerAuras++;
                 }
 
                 //PluginLog.Log($"Player Auras old:{this.curDebuffs} new: {playerAuras}");

@@ -1,16 +1,16 @@
 {
   "Author": "d87",
   "Name": "BigPlayerDebuffs",
-  "Description": "放大目標狀態欄中由你施加的增益與減益圖示。",
-  "Punchline": "放大自己施加的減益效果",
+  "Description": "放大目標狀態欄中由你施加的強化狀態與弱化狀態圖示。",
+  "Punchline": "放大自己施加的弱化狀態效果",
   "InternalName": "BigPlayerDebuffs",
   "AssemblyVersion": "Version",
   "Tags": [ "Buff", "Debuff", "Scale", "Interface" ],
-  "RepoUrl": "https://github.com/rgd87/BigPlayerDebuffs",
+  "RepoUrl": "https://github.com/ffxiv-tc-port/BigPlayerDebuffs",
   "ApplicableVersion": "any",
-  "IconUrl": "https://raw.githubusercontent.com/rgd87/BigPlayerDebuffs/master/images/icon.png",
+  "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/BigPlayerDebuffs/tc-7.20/images/icon.png",
   "ImageUrls": [
-    "https://raw.githubusercontent.com/rgd87/BigPlayerDebuffs/master/images/image1.png"
+    "https://raw.githubusercontent.com/ffxiv-tc-port/BigPlayerDebuffs/tc-7.20/images/image1.png"
   ],
   "Changelog": "* v1.1.0.14\n * 新增台灣繁體中文介面\n"
 }
