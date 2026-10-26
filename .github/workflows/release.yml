@@ -81,3 +81,4 @@ jobs:
 # csproj 在 repo 根、Platform 預設 AnyCPU ⇒ 輸出 bin/Release/ 不是 bin/x64/Release/。
 # ci: 觸發 Actions 註冊 dispatch-only workflow(新 repo 首次)
 # ci: 觸發 Actions 註冊 release workflow(新 repo dispatch-only 首次)
+# workflow re-registration trigger 2026-10-26T17:32:28Z
